@@ -1,5 +1,7 @@
 # DropBlock: A Better Dropout for CNN’s
 
+[Link to the full article](https://medium.com/artificialis/dropblock-a-better-dropout-for-cnns-17f80c47451d)
+
 Dropout is a regularization technique for neural network models proposed by Srivastava, et al. in their 2014 paper [Dropout: A Simple Way to Prevent Neural Networks from Overfitting.](http://jmlr.org/papers/v15/srivastava14a.html)
 
 Dropout is a technique where randomly selected neurons are ignored during training. They are “dropped-out” randomly. This means that their contribution to the activation of downstream neurons is temporally removed on the forward pass and any weight updates are not applied to the neuron on the backward pass.
